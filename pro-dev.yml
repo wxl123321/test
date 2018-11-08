@@ -13,3 +13,7 @@ spring:
    sleuth:
       sampler:
         percentage: 1.0
+hystrix:
+  config:
+    stream:
+      maxConcurrentConnections: 50
