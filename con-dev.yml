@@ -13,3 +13,10 @@ spring:
   sleuth:
      sampler:
        percentage: 1.0
+ hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
