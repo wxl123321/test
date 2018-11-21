@@ -13,7 +13,7 @@ spring:
 zuul: 
   routes: 
     api:
-       path: /gateway/**
+       path: /api/**
        serviceId: gateway
 api: 
    ribbon:
