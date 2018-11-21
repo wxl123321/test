@@ -12,10 +12,10 @@ spring:
       password: guest
 zuul: 
   routes: 
-    api:
-       path: /api/**
+    gateway:
+       path: /gateway/**
        serviceId: gateway
-api: 
+gateway: 
    ribbon:
       listOfServers: http://192.168.31.22:8081/,http://192.168.31.22:8082/
 management:
