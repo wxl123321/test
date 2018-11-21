@@ -21,4 +21,7 @@ api:
 management:
   security:
     enabled: false
+ribbon:
+  eureka:
+    enabled: true
     
