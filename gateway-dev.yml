@@ -7,7 +7,7 @@ zuul:
        serviceId: api
 api: 
    ribbon:
-      listOfServers: http://192.168.31.22:8081/,http://192.168.31.22:8084/
+      listOfServers: http://192.168.31.22:8081/,http://192.168.31.22:8082/
 ribbon: 
   eureka:
     enabled: false
